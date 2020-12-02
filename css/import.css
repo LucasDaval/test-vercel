@@ -1,0 +1,469 @@
+#phoneImg {
+  float: right;
+}
+
+#weAre {
+  float: left;
+}
+
+.columnDirection {
+  flex-direction: column;
+}
+
+.purple {
+  color: #7E76F9;
+}
+
+.price {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.9rem;
+  color: #1000FF;
+  font-weight: 600;
+}
+
+.cta, .type-02, .type-01, .type-03, .type-03:hover {
+  border-radius: 30px;
+  background: linear-gradient(-90deg, #6156F9 8%, #1A129F 46%);
+  border: none;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.type-01, .type-03, .type-03:hover {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  width: max-content;
+}
+
+.type-02 {
+  padding: 0.5rem 0.7rem;
+  font-size: 0.75rem;
+  width: 27%;
+}
+
+.type-03, .type-03:hover {
+  background-color: #FFFFFF;
+  color: #42495B;
+  background: none;
+  border: 2px solid #1000FF;
+}
+
+.type-03:hover {
+  background: linear-gradient(-90deg, #6156F9 8%, #1A129F 46%);
+  color: #FFFFFF;
+  border: none;
+}
+
+#mouse, #mouse:hover {
+  border-radius: 32px;
+  padding: 1.6vh;
+  position: relative;
+  top: 20%;
+  left: 44%;
+}
+#mouse img, #mouse:hover img {
+  vertical-align: middle;
+}
+
+#mouse:hover {
+  box-shadow: 0 0 20px rgba(126, 118, 249, 0.5);
+}
+
+#onglets {
+  width: 32vw;
+  margin-right: 16vw;
+}
+
+h1, h1 span {
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+h1 span {
+  font-size: 4.6rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60vh;
+}
+
+#biography {
+  width: 54%;
+  height: 73vh;
+  padding-top: 12vh;
+  padding: 8vh 9% 0 8%;
+  margin: 8vh 0;
+  background-image: url("../img/background-we-are.png");
+}
+
+#offers {
+  display: flex;
+  flex-direction: row;
+  padding-left: 4%;
+}
+
+#footerArticle {
+  display: flex;
+}
+
+.card, .card-02, .card-02:hover, .card-01 {
+  width: 28%;
+  height: 64vh;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 6vh 4% 6vh 0;
+}
+.card p, .card-02 p, .card-02:hover p, .card-01 p {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+}
+.card a, .card-02 a, .card-02:hover a, .card-01 a {
+  align-self: flex-end;
+}
+
+.card-01 {
+  padding: 1vh 1% 2vh 2%;
+  box-shadow: 0 8px 20px rgba(126, 118, 249, 0.5);
+}
+.card-01 img {
+  width: 8rem;
+  height: 120px;
+  margin: 0 auto;
+}
+.card-01 p {
+  height: 16vh;
+}
+
+.card-02, .card-02:hover {
+  text-align: center;
+  padding: 0 3%;
+}
+.card-02 h3, .card-02:hover h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.card-02 p, .card-02:hover p {
+  height: 20vh;
+}
+
+.card-02:hover {
+  box-shadow: 0 8px 20px rgba(126, 118, 249, 0.5);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-around;
+}
+nav ul a {
+  color: #FFFFFF;
+}
+nav div {
+  display: flex;
+  align-items: center;
+}
+nav h3 {
+  padding-top: 5vh;
+  font-size: 2.5rem;
+}
+
+footer {
+  height: 72vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/footer.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+footer table {
+  margin-top: 10vh;
+  width: 100%;
+  text-align: center;
+}
+footer table td {
+  width: 33%;
+  height: 5vh;
+  color: #FFFFFF;
+}
+footer table td span {
+  color: #FFFFFF;
+  text-align: right;
+}
+
+header {
+  height: 13vh;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #42495B;
+}
+
+body {
+  margin-top: 2vh;
+  background-image: url("../img/wave.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+#firstSection {
+  height: 85vh;
+  margin-left: 5%;
+}
+
+#secondSection {
+  height: 100vh;
+  margin-left: 5%;
+}
+#secondSection a {
+  width: 26%;
+}
+#secondSection p {
+  margin: 0;
+}
+
+#thirdSection {
+  height: 180vh;
+  margin-left: 5%;
+}
+#thirdSection #services {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../img/background-service.png");
+}
+
+#prices {
+  height: 100vh;
+  background-color: #eceafe;
+  text-align: center;
+  padding-top: 5vh;
+}
+
+#news {
+  padding-top: 10vh;
+  height: 50vh;
+  text-align: center;
+}
+#news h2 {
+  width: 20px;
+}
+#news h3 {
+  padding-bottom: 5vh;
+}
+#news input {
+  height: 5vh;
+  width: 20%;
+}
+
+@media screen and (max-width: 910px) {
+  h1, h1 span {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+  h1 span {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 0.8rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+
+  #phoneImg {
+    width: 40%;
+  }
+  #phoneImg img {
+    float: right;
+    width: 100%;
+  }
+
+  #weAre {
+    width: 40%;
+  }
+  #weAre img {
+    float: left;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 910px) {
+  #biography {
+    width: 52%;
+  }
+
+  .card p, .card-01 p, .card-02 p, .card-02:hover p {
+    font-size: 0.7rem;
+  }
+  .card a, .card-01 a, .card-02 a, .card-02:hover a {
+    width: 40%;
+  }
+
+  .card-02 a, .card-02:hover a {
+    width: 76%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #biography {
+    width: 52%;
+  }
+
+  article {
+    height: 25vh;
+  }
+
+  .card, .card-01, .card-02, .card-02:hover {
+    height: 40vh;
+  }
+  .card p, .card-01 p, .card-02 p, .card-02:hover p {
+    font-size: 0.7rem;
+  }
+  .card a, .card-01 a, .card-02 a, .card-02:hover a {
+    width: 43%;
+  }
+
+  .card-02, .card-02:hover {
+    height: 36vh;
+  }
+  .card-02 a, .card-02:hover a {
+    width: 88%;
+  }
+}
+@media screen and (max-width: 910px) {
+  body {
+    background-size: 50%;
+  }
+
+  #firstSection {
+    margin-left: 5%;
+  }
+
+  #secondSection {
+    height: 100vh;
+    margin-top: 12vh;
+    margin-left: 5%;
+  }
+  #secondSection aside {
+    width: 48%;
+  }
+  #secondSection aside img {
+    width: 100%;
+  }
+  #secondSection p {
+    font-size: 0.7rem;
+  }
+  #secondSection a {
+    width: 42%;
+  }
+
+  #thirdSection #services {
+    background-size: 50%;
+  }
+}
+@media screen and (max-width: 770px) {
+  header nav ul {
+    width: 44%;
+  }
+  header nav ul a {
+    font-size: 0.8rem;
+  }
+
+  #firstSection {
+    height: 50vh;
+  }
+
+  #secondSection {
+    height: 50vh;
+    margin: 0;
+  }
+  #secondSection #biography {
+    margin: 0;
+    padding-left: 4%;
+    height: 36vh;
+  }
+  #secondSection #biography p {
+    margin-bottom: 2vh;
+  }
+
+  #thirdSection {
+    height: 112vh;
+  }
+
+  #prices {
+    height: 60vh;
+  }
+
+  #news {
+    height: 36vh;
+  }
+}
+@media screen and (max-width: 325px) {
+  body {
+    background-image: none;
+  }
+
+  header nav {
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+  header nav ul {
+    width: auto;
+  }
+  header nav ul a {
+    font-size: 0.8rem;
+    color: #42495B;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  #firstSection {
+    height: 100vh;
+    margin-top: 10vh;
+  }
+  #firstSection #mouse {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=import.css.map */

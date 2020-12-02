@@ -1,0 +1,28 @@
+footer{
+    height: 72vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../img/footer.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+    table{
+        margin-top: 10vh;
+        width: 100%;
+        text-align: center;
+
+        td{
+            width: 33%;
+            height: 5vh;
+            color: $White;
+
+            span{
+                color: $White;
+                text-align: right;
+            }
+        }
+    };
+}

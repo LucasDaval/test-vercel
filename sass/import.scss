@@ -1,0 +1,27 @@
+// Variables
+@import "./helpers/variables.scss";
+
+
+// Components
+
+// Atoms
+@import "./components/atoms/aside";
+@import "./components/atoms/class";
+@import "./components/atoms/cta";
+@import "./components/atoms/titles";
+
+// Molecules
+@import "./components/molecules/articles";
+@import "./components/molecules/cards";
+@import "./components/molecules/nav";
+
+
+// Organisms
+@import "./components/organisms/footer";
+@import "./components/organisms/header";
+@import "./components/organisms/reset";
+@import "./components/organisms/sections";
+
+@import "./components/atoms/atomsResponsive";
+@import "./components/molecules/moleculesResponsive";
+@import "./components/organisms/organismsResponsive";

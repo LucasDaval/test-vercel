@@ -1,0 +1,57 @@
+#firstSection{
+    height: 85vh;
+    margin-left: 5%;
+}
+
+#secondSection{
+    height: 100vh;
+    margin-left: $MarginLeftS;
+
+    a{
+        width: 26%;
+    }
+
+    p{
+        margin: 0;
+    }
+}
+
+#thirdSection{
+    height: 180vh;
+    margin-left: $MarginLeftS;
+    #services{
+        display: flex;
+        flex-wrap: wrap;
+        background-image: url("../img/background-service.png");
+    }
+}
+
+#prices{
+    height: 100vh;
+    background-color: $BluePurple;
+    text-align: center;
+
+    padding-top: 5vh;
+}
+
+#news{
+    padding-top: 10vh;
+    height: 50vh;
+    text-align: center;
+
+    h2{
+        width: 20px;
+    }
+
+    h3{
+        padding-bottom: 5vh;
+    }
+
+    input{
+        height: 5vh;
+        width: 20%;
+    }
+}
+
+
+

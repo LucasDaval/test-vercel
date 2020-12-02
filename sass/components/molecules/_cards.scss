@@ -1,0 +1,57 @@
+.card{
+    width: 28%;
+    height: 64vh;
+    border-radius: 20px;
+    background-color: $White;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin: 6vh 4% 6vh 0;
+
+    p{
+        font-size: 1rem;
+        font-family: $Lato;
+    }
+    
+    a{
+        align-self: flex-end;
+    }
+}
+
+.card-01{
+    @extend .card;
+    padding: 1vh 1% 2vh 2%;
+    box-shadow: 0 8px 20px rgba(126, 118, 249, 0.5);
+
+    img{
+        width: 8rem;
+        height: 120px;
+        margin: 0 auto;
+    }
+
+    p{
+        height: 16vh;
+    }
+}
+
+.card-02{
+    @extend .card;
+    text-align: center;
+    padding: 0 3%;
+
+    h3{
+        font-size: 1.8rem;
+        font-weight: 400;    
+    }
+
+    p{
+        height: 20vh;
+    }
+}
+
+.card-02:hover{
+    @extend .card-02;
+    box-shadow: 0 8px 20px rgba(126, 118, 249, 0.5);
+}

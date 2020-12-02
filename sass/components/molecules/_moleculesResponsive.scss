@@ -1,0 +1,61 @@
+@media screen and (max-width:910px){
+
+    #biography{
+        width: 52%;
+    }
+
+    .card{
+    
+        p{
+            font-size: 0.7rem;
+        }
+        
+        a{
+            width: 40%;
+        }
+    }
+
+    .card-02{
+        a{
+            width: 76%;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+
+    #biography{
+        width: 52%;
+    }
+
+    article{
+        height: 25vh;
+    }
+
+    .card{
+        height: 40vh;
+    
+        p{
+            font-size: 0.7rem;
+        }
+        
+        a{
+            width: 43%;
+        }
+    }
+
+    .card-02{
+        height: 36vh;
+        a{
+            width: 88%;
+        }
+    }
+
+}
+
+@media screen and (max-width:320px){
+
+}
+

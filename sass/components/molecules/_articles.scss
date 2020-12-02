@@ -1,0 +1,29 @@
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60vh;
+
+}
+
+#biography{
+    width: 54%;
+    height: 73vh;
+
+    padding-top: 12vh;
+
+    padding: 8vh 9% 0 8%;
+    margin: 8vh 0;
+
+    background-image: url("../img/background-we-are.png");
+}
+
+#offers{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4%;
+}
+
+#footerArticle{
+    display: flex;
+}

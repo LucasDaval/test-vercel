@@ -1,0 +1,45 @@
+@media screen and (max-width:910px){
+    h1{
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        span{
+            @extend h1;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
+    
+    h2{
+        font-size: 2rem;
+    }
+    
+    h3{
+        font-size: 0.8rem;
+    }
+
+    p{
+        font-size: 0.7rem;
+    }
+
+    #phoneImg{
+        width: 40%;
+        img{
+            float: right;
+            width: 100%;
+        }
+    }
+    
+    #weAre{
+        width: 40%;
+        img{
+            float: left;
+            width: 60%;
+        }
+    }
+
+}
+
+@media screen and (max-width:320px){
+
+}
